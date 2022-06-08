@@ -1,0 +1,457 @@
+header{
+    display: flex;
+    height: 60px;
+    background-color: #331a00;
+}
+
+header div{
+    width: 300px;
+    text-align: center;
+   
+}
+
+ header div h1{
+    font-size: 1.5rem;
+    line-height: 0.5;
+    padding-top: 10px;
+    color: white;
+  
+
+}
+ header span{
+    font-size: 0.7rem;
+    padding-right: 20px;
+    color: gray;
+   
+}
+
+ header nav ul{
+    display: flex;
+    width: 900px;
+    justify-content: space-around;
+    list-style-type: none;
+    
+   
+}
+
+ header nav li{
+    font-size: 0.8rem;
+    border: 2px solid #331a00;
+    padding: 10px;
+    border-radius: 12px;
+
+    
+}
+header a:link{
+    text-decoration: none;
+    
+}
+header a:visited{
+    color: white;
+}
+ header .home{
+    background-color:lightgreen;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* info1*/
+
+.info1{
+    width: 1264px;
+    height: 500px;
+    display: flex;
+    background-color: #331a00;
+   
+    
+}
+
+.arrow{
+    padding-top: 200px;
+    padding-left: 80px;
+
+}
+
+.text{
+    box-sizing: border-box;
+    width: 350px;
+    height: 500px;
+    padding-top: 70px;
+    padding-left: 30px;
+    background-color: #331a00;
+    
+    
+}
+
+.text h1{
+    font-size: 2.5rem;
+    color: white;
+}
+
+.text p{
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.text a{
+    width: 210px;
+    height: 28px;
+    font-size: 0.8rem;
+    margin-right: 200px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 4px;
+    box-sizing: border-box;
+    background-color: lightgreen;
+    color: white;
+    text-decoration: none;
+    padding: 6px;
+    
+    
+    
+    
+    
+}
+
+
+
+.photo{
+    width:420px;
+    height: 420px;
+    border:1px solid black;
+    border-radius: 60%;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    background-color: grey;
+    margin-left: 200px;
+
+}
+
+ main .photo1 img{
+    max-width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    border: 1px solid black;
+    
+    
+}
+
+.arrow1{
+    padding-top: 200px;
+    padding-left: 80px;
+
+}
+
+
+.info2 {
+    width: 1264px;
+    height: 470px;
+    display:flex;
+    justify-content: space-evenly;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+    background-color: brown;
+    
+}
+
+
+.box{
+    width: 260px;
+    height: 360px;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+    margin-top: 50px;
+   
+    
+
+}
+.box p{
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+
+ .info2 a:link{ 
+    text-decoration: none;
+    
+}
+
+.info2 a:visited{
+    color: black;
+    
+}
+
+ .info2 a:hover .box{
+    
+    color: white;
+    background-color: lightgreen;
+}
+
+.info2 a:link .box{
+    background-color: white;
+}
+
+/* info 3 */
+
+.info3{
+    width: 1264px;
+    height: 600px;
+    box-sizing: border-box;
+    margin-top: -84px;
+    display: grid;
+    grid-template-columns:400px 400px 400px;
+    padding-left: 62px;
+    padding-top: 45px;
+    background-color: brown;
+    
+
+}
+
+.line .work{
+    width: 1124px;
+    border-top: 4px solid black;
+    margin-left:69px;
+     border-color:black;
+     border-color: rgb(56, 53, 53);
+     position: relative;
+     
+     
+     
+
+}
+
+.line h1{
+    margin-right: 870px;
+    text-align: center;
+    border-radius: 10px;
+    background-color:rgb(56, 53, 53);
+    color: white;
+    position: relative;
+    top: -42px;
+    left: 430px;
+    z-index: 1; 
+}
+
+          /* grid box*/
+
+
+.info3 .box1{
+    width: 330px;
+    height: 230px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.info3 .box2{
+    width: 310px;
+    height: 210px;
+    box-sizing: border-box;
+    margin-top: 8px;
+    background-color: gray;
+    
+}
+
+.info3 .box3{
+    width:308px ;
+    height: 50px;
+    border: 1px solid black;
+    margin-top: 158px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.info3 a:hover .box3{
+    visibility: hidden;
+    text-decoration: none;
+}
+
+
+
+
+.info3 a:link .box1{
+    background-color: white;
+}
+
+
+.info3 a:hover .box1 {
+    background-color: greenyellow;
+}
+
+
+/*  footer  */
+
+.footer{
+    width: 1264px;
+    height: 500px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 270px 270px 270px 270px;
+    padding-left: 62px;
+    gap: 22px;
+    padding-top: 30px;
+    background-color:  rgb(59, 58, 58);
+}
+
+.footer .box1{
+    width: 250px;
+    height: 400px;
+    background-color: rgb(59, 58, 58);
+
+}
+
+.footer .box1 h3{
+    color: white;
+}
+
+.footer a:link{
+    text-decoration: none;
+
+}
+
+.footer a:visited{
+    color: chartreuse;
+
+}
+
+.footer .box1 :nth-child(3){
+    font-size: 0.7rem;
+}
+
+.footer .box1 :nth-child(4){
+    font-size: 0.7rem;
+    color: gray;
+}
+
+.footer .box1 p{
+    color: gray;
+}
+
+
+.footer .box1 span{
+    color:dimgray;
+}
+
+
+
+
+
+.footer .box2{
+    width: 250px;
+    height: 400px;
+    background-color:  rgb(59, 58, 58);
+
+}
+
+.footer .box2 h3{
+    color: white;
+
+}
+
+.footer .box2 span{
+    color: gray;
+    font-size: 0.8rem;
+    
+    
+}
+
+
+
+.footer .box3{
+    width: 250px;
+    height: 400px;
+    background-color: rgb(59, 58, 58) ;
+
+}
+
+.footer .box3 h3{
+    color: white;
+}
+
+.footer .box3 p{
+    color: grey;
+}
+
+
+
+
+
+.footer .box4{
+    width: 250px;
+    height: 400px;
+    
+
+}
+
+.footer .box4 h3{
+    color: white;
+}
+
+.footer .box4 input[type=text]{
+    width: 220px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(36, 35, 35);
+    color: grey;
+    font-size: 1rem;
+    margin-top:10px;
+    
+}
+
+.footer .box4 input[type=message]{
+    width: 220px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: rgb(36, 35, 35);
+    color: grey;
+    font-size: 1rem;
+    margin-top:10px;
+}
+
+.footer .box4 .button{
+    width: 90px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-top: 10px;
+    background-color:chartreuse;
+    text-align: center;
+    
+    
+}
+.footer .box4 .button span{
+    color: black;
+}
+
+ 
+
+.end{
+    width: 1264px;
+    height: 60px;
+    border-top: 1px solid black;
+    box-sizing: border-box;
+    background-color: rgb(44, 44, 44);
+    color: grey;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+
+}
+
+
+
+
+
+
+
+
+
